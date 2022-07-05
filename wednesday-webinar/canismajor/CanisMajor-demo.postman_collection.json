@@ -1,0 +1,450 @@
+{
+	"info": {
+		"_postman_id": "657ff292-abfc-4290-b49b-20cb9b6e555e",
+		"name": "CanisMajor demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Configure vault",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-Vault-Token",
+						"value": "vault-plaintext-root-token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sha256\": \"76dc18d1811e2086e784414ffdef700854959e85fdfd61f089b138f1e0364aa2\",\n    \"command\": \"vault-ethereum --tls-skip-verify=true\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8200/v1/sys/plugins/catalog/secret/vault-ethereum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8200",
+					"path": [
+						"v1",
+						"sys",
+						"plugins",
+						"catalog",
+						"secret",
+						"vault-ethereum"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enable plugin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Vault-Token",
+						"value": "vault-plaintext-root-token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"vault-ethereum\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8200/v1/sys/mounts/ethereum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8200",
+					"path": [
+						"v1",
+						"sys",
+						"mounts",
+						"ethereum"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Connect vault with dlt",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-Vault-Token",
+						"value": "vault-plaintext-root-token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"chain_id\": \"5777\",\n    \"rpc_url\": \"http://ganache-cli:8545\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8200/v1/ethereum/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8200",
+					"path": [
+						"v1",
+						"ethereum",
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register alice",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-Vault-Token",
+						"value": "vault-plaintext-root-token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mnemonic\": \"minimum symptom minute gloom tragic situate silver mechanic salad amused elite beef\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8200/v1/ethereum/accounts/alice",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8200",
+					"path": [
+						"v1",
+						"ethereum",
+						"accounts",
+						"alice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register bob",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-Vault-Token",
+						"type": "text",
+						"value": "vault-plaintext-root-token"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mnemonic\": \"ridge bargain sight table never risk isolate hold jaguar reflect curve globe awake witness reveal\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8200/v1/ethereum/accounts/bob",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8200",
+					"path": [
+						"v1",
+						"ethereum",
+						"accounts",
+						"bob"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alice orders a packet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "NGSILD-Tenant",
+						"value": "orion",
+						"type": "text"
+					},
+					{
+						"key": "Wallet-Type",
+						"value": "Vault",
+						"type": "text"
+					},
+					{
+						"key": "Wallet-Address",
+						"value": "http://vault:8200/v1/ethereum/accounts/alice",
+						"type": "text"
+					},
+					{
+						"key": "Wallet-Token",
+						"value": "vault-plaintext-root-token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"urn:ngsi-ld:Packet:packet-1\",\n    \"type\": \"Packet\",\n    \"status\": {\n        \"type\": \"Property\",\n        \"value\": \"Ordered\"\n    },\n    \"orderdBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/ngsi-ld/v1/entities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"ngsi-ld",
+						"v1",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bob takes packet for delivery",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "NGSILD-Tenant",
+						"type": "text",
+						"value": "orion"
+					},
+					{
+						"key": "Wallet-Type",
+						"type": "text",
+						"value": "Vault"
+					},
+					{
+						"key": "Wallet-Address",
+						"type": "text",
+						"value": "http://vault:8200/v1/ethereum/accounts/bob"
+					},
+					{
+						"key": "Wallet-Token",
+						"type": "text",
+						"value": "vault-plaintext-root-token"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"urn:ngsi-ld:Packet:packet-1\",\n    \"type\": \"Packet\",\n    \"status\": {\n        \"type\": \"Property\",\n        \"value\": \"InDelivery\"\n    },\n    \"orderdBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    },\n    \"deliveryBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Courier:bob\"\n    }  \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/ngsi-ld/v1/entities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"ngsi-ld",
+						"v1",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alice receives packet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "NGSILD-Tenant",
+						"type": "text",
+						"value": "orion"
+					},
+					{
+						"key": "Wallet-Type",
+						"type": "text",
+						"value": "Vault"
+					},
+					{
+						"key": "Wallet-Address",
+						"type": "text",
+						"value": "http://vault:8200/v1/ethereum/accounts/alice"
+					},
+					{
+						"key": "Wallet-Token",
+						"type": "text",
+						"value": "vault-plaintext-root-token"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"urn:ngsi-ld:Packet:packet-1\",\n    \"type\": \"Packet\",\n    \"status\": {\n        \"type\": \"Property\",\n        \"value\": \"Received\"\n    },\n    \"orderdBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    },\n    \"deliveryBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Courier:bob\"\n    },\n    \"receivedBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    }  \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/ngsi-ld/v1/entities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"ngsi-ld",
+						"v1",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Manager checks delivery status",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "NGSILD-Tenant",
+						"type": "text",
+						"value": "orion"
+					},
+					{
+						"key": "Wallet-Type",
+						"type": "text",
+						"value": "Vault"
+					},
+					{
+						"key": "Wallet-Address",
+						"type": "text",
+						"value": "http://vault:8200/v1/ethereum/accounts/alice"
+					},
+					{
+						"key": "Wallet-Token",
+						"type": "text",
+						"value": "vault-plaintext-root-token"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"urn:ngsi-ld:Packet:packet-1\",\n    \"type\": \"Packet\",\n    \"orderdBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    },\n    \"deliveryBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Courier:bob\"\n    },\n    \"receivedBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    }  \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/ngsi-ld/v1/entities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"ngsi-ld",
+						"v1",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactions",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "NGSILD-Tenant",
+						"type": "text",
+						"value": "orion"
+					},
+					{
+						"key": "Wallet-Type",
+						"type": "text",
+						"value": "Vault"
+					},
+					{
+						"key": "Wallet-Address",
+						"type": "text",
+						"value": "http://vault:8200/v1/ethereum/accounts/alice"
+					},
+					{
+						"key": "Wallet-Token",
+						"type": "text",
+						"value": "vault-plaintext-root-token"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"urn:ngsi-ld:Packet:packet-1\",\n    \"type\": \"Packet\",\n    \"orderdBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    },\n    \"deliveryBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Courier:bob\"\n    },\n    \"receivedBy\": {\n        \"type\": \"RelationShip\",\n        \"object\": \"urn:ngsi-ld:Customer:alice\"\n    }  \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/ngsi-ld/v1/entities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"ngsi-ld",
+						"v1",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
