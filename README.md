@@ -7,7 +7,7 @@
 | Wednesday Webinar | [Scalable deployments of FIWARE](./wednesday-webinar/scalability/) | 21-10-2021 | [Youtube](https://www.youtube.com/watch?v=WUman6Mnx58) |
 | Inside it's OWL | [IMPRESS - Umsetzung](./inside-owl/) | 30-03-2022 | [Youtube](https://www.youtube.com/watch?v=lMnrUkdMf4M) |
 | Mob Session | [Endpoint-Auth-Service](./endpoint-auth-service/) | 08-06-2022 | |
-| Wednesday Webinar | [A short introduction to Canis Major](./wednesday-webinar/canismajor/) | 06-07-2022 | |
+| Wednesday Webinar | [A short introduction to Canis Major](./wednesday-webinar/canismajor/) | 06-07-2022 | [Youtube](https://www.youtube.com/watch?v=R6dI8tTtLNQ) |
 | FIWARE Summit 2022 | [Kong in FIWARE Systems](./summit-gran-canaria/kong/FGS22-Kong.pdf) | 14-09-2022 | |
 | FIWARE Summit 2022 | [Kong Keycloak-Plugin](./summit-gran-canaria/keycloak/FGS22-Keycloak.pdf) | 14-09-2022 | |
 | FIWARE Summit 2022 | [FIWARE Training - Deployment](./summit-gran-canaria/deployment/FIWARE_Training_Getting-started.pdf) | 14-09-2022 | |
