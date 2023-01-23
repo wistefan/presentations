@@ -11,5 +11,6 @@
 | FIWARE Summit 2022 | [Kong in FIWARE Systems](./summit-gran-canaria/kong/FGS22-Kong.pdf) | 14-09-2022 | |
 | FIWARE Summit 2022 | [Kong Keycloak-Plugin](./summit-gran-canaria/keycloak/FGS22-Keycloak.pdf) | 14-09-2022 | |
 | FIWARE Summit 2022 | [FIWARE Training - Deployment](./summit-gran-canaria/deployment/FIWARE_Training_Getting-started.pdf) | 14-09-2022 | |
-| FIWARE, iSHARE & i4Trust Training Camp | [Kong, Keyrock, Keycloak, i4Trust - Options to secure FIWARE in production](./i4trust-training-camp/Options-to-secure.pptx.pdf) | 16-12-2022 | |
+| FIWARE, iSHARE & i4Trust Training Camp | [Kong, Keyrock, Keycloak, i4Trust - Options to secure FIWARE in production](./i4trust-training-camp/Options-to-secure.pptx.pdf) | 16-12-2022 | [Youtube](https://www.youtube.com/watch?v=8ZefBcGFOXI&list=PLykpeOnHBQ_B2ommj-SNgW_ISiHOemWvs&index=4)|
+| FIWARE, iSHARE & i4Trust Training Camp | [Bringing the pieces together](./i4trust-training-camp/reference-example.pdf) | 21-12-2022 | [Youtube](https://www.youtube.com/watch?v=l5GoMuXBofQ)|
 | | [Replication, Aggregation, Federation, Sharding?!](./ops/agg-fed-rep-shard/) | - | |
