@@ -13,4 +13,11 @@
 | FIWARE Summit 2022 | [FIWARE Training - Deployment](./summit-gran-canaria/deployment/FIWARE_Training_Getting-started.pdf) | 14-09-2022 | |
 | FIWARE, iSHARE & i4Trust Training Camp | [Kong, Keyrock, Keycloak, i4Trust - Options to secure FIWARE in production](./i4trust-training-camp/Options-to-secure.pptx.pdf) | 16-12-2022 | [Youtube](https://www.youtube.com/watch?v=8ZefBcGFOXI&list=PLykpeOnHBQ_B2ommj-SNgW_ISiHOemWvs&index=4)|
 | FIWARE, iSHARE & i4Trust Training Camp | [Bringing the pieces together](./i4trust-training-camp/reference-example.pdf) | 21-12-2022 | [Youtube](https://www.youtube.com/watch?v=l5GoMuXBofQ)|
+| FIWARE Summit 2023 | [Highly scalable deployments](./summit-vienna/scalable-deployments/7.-FIWARE%20Training_Highly-scalable%20Context%20Broker%20deployments%20on%20Kubernetes.pdf) | 13-06-2023 | |
+| FIWARE Summit 2023 | [Kong as an API-Gateway in FIWARE Systems](./summit-vienna/kong-in-fiware/9.-FIWARE%20Training_Kong%20as%20an%20API-Gateway%20in%20FIWARE%20systems%20protecting%20and%20monitoring%20endpoints.pdf) | 14-06-2023 | |
+| FIWARE Summit 2023 | [Keycloak Extension](./summit-vienna/keycloak-extension/10.-FIWARE%20Training_Keycloak%20extension.pdf) | 14-06-2023 | | 
+| FIWARE Summit 2023 | [Notarization of Digital Twin data-exchanges](./summit-vienna/canis-major/12.-FIWARE%20Training_Notarization%20of%20digital%20twin%20data%20exchanges%20using%20blockchain%20Canis%20Major.pdf) | 14-06-2023 | | 
+| FIWARE Summit 2023 | [Decentralized IAM in FIWARE](./summit-vienna/trust-and-iam/13%20FIWARE%20Training%20Trust-Identity%20and%20Access%20Management.pdf) | 14-06-2023 | | 
+| FIWARE Summit 2023 | [Trust Services for Dataspcaes](./summit-vienna/trust-services-for-dataspaces/14%20FIWARE%20Training_Trust%20Services%20for%20Data%20Spaces.pdf) | 14-06-2023 | | 
+| FIWARE Summit 2023 | [Recipes for deployment of IAM components](./summit-vienna/iam-deployment/16.-FIWARE%20Training_Recipes%20for%20deployment%20of%20IAM%20components%20on%20Kubernetes.pdf) | 14-06-2023 | | 
 | | [Replication, Aggregation, Federation, Sharding?!](./ops/agg-fed-rep-shard/) | - | |
