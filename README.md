@@ -20,5 +20,5 @@
 | FIWARE Summit 2023 | [Decentralized IAM in FIWARE](./summit-vienna/trust-and-iam/13%20FIWARE%20Training%20Trust-Identity%20and%20Access%20Management.pdf) | 14-06-2023 | | 
 | FIWARE Summit 2023 | [Trust Services for Dataspcaes](./summit-vienna/trust-services-for-dataspaces/14%20FIWARE%20Training_Trust%20Services%20for%20Data%20Spaces.pdf) | 14-06-2023 | | 
 | FIWARE Summit 2023 | [Recipes for deployment of IAM components](./summit-vienna/iam-deployment/16.-FIWARE%20Training_Recipes%20for%20deployment%20of%20IAM%20components%20on%20Kubernetes.pdf) | 14-06-2023 | | 
-| FIWARE Summit 2023 | [Other Speakers](./summit-vienna/other-speakers/ | Training camp presentations from other speakers | 
+| FIWARE Summit 2023 | [Other Speakers](./summit-vienna/other-speakers/) | Training camp presentations from other speakers | 
 | | [Replication, Aggregation, Federation, Sharding?!](./ops/agg-fed-rep-shard/) | - | |
