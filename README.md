@@ -18,7 +18,7 @@
 | FIWARE Summit 2023 | [Keycloak Extension](./summit-vienna/keycloak-extension/10.-FIWARE%20Training_Keycloak%20extension.pdf) | 14-06-2023 | | 
 | FIWARE Summit 2023 | [Notarization of Digital Twin data-exchanges](./summit-vienna/canis-major/12.-FIWARE%20Training_Notarization%20of%20digital%20twin%20data%20exchanges%20using%20blockchain%20Canis%20Major.pdf) | 14-06-2023 | | 
 | FIWARE Summit 2023 | [Decentralized IAM in FIWARE](./summit-vienna/trust-and-iam/13%20FIWARE%20Training%20Trust-Identity%20and%20Access%20Management.pdf) | 14-06-2023 | | 
-| FIWARE Summit 2023 | [Trust Services for Dataspcaes](./summit-vienna/trust-services-for-dataspaces/14%20FIWARE%20Training_Trust%20Services%20for%20Data%20Spaces.pdf) | 14-06-2023 | | 
+| FIWARE Summit 2023 | [Trust Services for Dataspaces](./summit-vienna/trust-services-for-dataspaces/14%20FIWARE%20Training_Trust%20Services%20for%20Data%20Spaces.pdf) | 14-06-2023 | | 
 | FIWARE Summit 2023 | [Recipes for deployment of IAM components](./summit-vienna/iam-deployment/16.-FIWARE%20Training_Recipes%20for%20deployment%20of%20IAM%20components%20on%20Kubernetes.pdf) | 14-06-2023 | | 
 | FIWARE Summit 2023 | [Other Speakers](./summit-vienna/other-speakers/) | 14-06-2023 | Training camp presentations from other speakers | 
 | | [Replication, Aggregation, Federation, Sharding?!](./ops/agg-fed-rep-shard/) | - | |
