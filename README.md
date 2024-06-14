@@ -2,6 +2,7 @@
 
 |Event|Title|Date|Links|
 |--|---|--|--|
+| Friday Webinar | [FIWARE Data Spaces - A practical introduction into roles and components](./friday-webinar/data-spaces/FIWARE%20Data%20Spaces%20-%20Roles%20and%20Components.pptx.pdf) | 14-06-2026 | | 
 | CEF Context Broker - Technical webinar | [Performance](./cef/) | 30-03-2021 | [Youtube](https://www.youtube.com/watch?v=26i-DZVBgh8) |
 |FIWARE SmartFest| [Top Level Performance](./smart-fest/) | 14-07-2021 | [Youtube](https://www.youtube.com/watch?v=ByGVkF6XwVw) |
 | Wednesday Webinar | [Scalable deployments of FIWARE](./wednesday-webinar/scalability/) | 21-10-2021 | [Youtube](https://www.youtube.com/watch?v=WUman6Mnx58) |
