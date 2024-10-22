@@ -2,7 +2,7 @@
 
 |Event|Title|Date|Links|
 |--|---|--|--|
-| Friday Webinar | [FIWARE Data Spaces - A practical introduction into roles and components](./friday-webinar/data-spaces/FIWARE%20Data%20Spaces%20-%20Roles%20and%20Components.pptx.pdf) | 14-06-2024 | | 
+| Friday Webinar | [FIWARE Data Spaces - A practical introduction into roles and components](./friday-webinar/data-spaces/FIWARE%20Data%20Spaces%20-%20Roles%20and%20Components.pptx.pdf) | 14-06-2024 | [Youtube](https://www.youtube.com/watch?v=hm5qMlhpK0g) | 
 | FIWARE Summit 2023 | [Highly scalable deployments](./summit-vienna/scalable-deployments/7.-FIWARE%20Training_Highly-scalable%20Context%20Broker%20deployments%20on%20Kubernetes.pdf) | 13-06-2023 | |
 | FIWARE Summit 2023 | [Kong as an API-Gateway in FIWARE Systems](./summit-vienna/kong-in-fiware/9.-FIWARE%20Training_Kong%20as%20an%20API-Gateway%20in%20FIWARE%20systems%20protecting%20and%20monitoring%20endpoints.pdf) | 14-06-2023 | |
 | FIWARE Summit 2023 | [Keycloak Extension](./summit-vienna/keycloak-extension/10.-FIWARE%20Training_Keycloak%20extension.pdf) | 14-06-2023 | | 
