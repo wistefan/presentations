@@ -2,7 +2,7 @@
 
 |Event|Title|Date|Links|
 |--|---|--|--|
-| Data Spaces Onboarding | [FIWARE Data Spaces - Deploying a FIWARE Data Space Connector](./data-spaces-onboarding/deployment/Deploying%20a%20FIWARE%20Data%20Space%20Connector.pdf) | 19-11-2024 |  | 
+| Data Spaces Onboarding | [FIWARE Data Spaces - Deploying a FIWARE Data Space Connector](./data-spaces-onboarding/deployment/Deploying%20a%20FIWARE%20Data%20Space%20Connector.pdf) | 19-11-2024 | [Youtube](https://www.youtube.com/watch?v=5qrhUCczk8w) | 
 | Data Spaces Onboarding | [FIWARE Data Spaces - Decentralized Identity and Access Management](./data-spaces-onboarding/decentralized-trust-and-iam/decentralized_IAM.pdf) | 05-11-2024 | [Youtube](https://www.youtube.com/watch?v=zz7MHd3imzs) | 
 | Friday Webinar | [FIWARE Data Spaces - A practical introduction into roles and components](./friday-webinar/data-spaces/FIWARE%20Data%20Spaces%20-%20Roles%20and%20Components.pptx.pdf) | 14-06-2024 | [Youtube](https://www.youtube.com/watch?v=hm5qMlhpK0g) | 
 | FIWARE Summit 2023 | [Highly scalable deployments](./summit-vienna/scalable-deployments/7.-FIWARE%20Training_Highly-scalable%20Context%20Broker%20deployments%20on%20Kubernetes.pdf) | 13-06-2023 | |
