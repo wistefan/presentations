@@ -2,6 +2,7 @@
 
 |Event|Title|Date|Links|
 |--|---|--|--|
+| Wednesday Webinar  | [FIWARE Data Space Connector - Integration with the IDSA Data Space Protocol](./wednesday-webinar/dsc-idsa/IDSA.pdf) | 02-04-2025 | |
 | Authenticon  | [Aufbau eines dezentralen Datenraumes mit dem FIWARE Data Space Connector ](./authenticon/FIWARE%20DSC%20Authenticon.pdf) | 05-03-2025 | [authenticon.io](https://authenticon.io/) |
 | Data Spaces Onboarding | [FIWARE Data Spaces - Reference Use Case ](./data-spaces-onboarding/reference-use-case/Reference%20Use%20Case.pdf) | 26-11-2024 | [Youtube](https://www.youtube.com/watch?v=3fLisTubkF0&t=13s) |
 | Data Spaces Onboarding | [FIWARE Data Spaces - Ongoing Work ](./data-spaces-onboarding/ongoing-work/Webinar%20FIWARE%20Data%20Space%20Components%20-%20Ongoing%20and%20future%20work.pptx.pdf) | 21-11-2024 | [Youtube](https://www.youtube.com/watch?v=bZAzOHIdSr8)  | 
