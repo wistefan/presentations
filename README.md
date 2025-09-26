@@ -4,6 +4,7 @@
 |--|---|--|--|
 | FIWARE Summit 2025 | [Towards Human-Centric Smart City Services through Decentralized Identity Mangement](./summit-rabat/human-centric-smart-city/FGS25%20–%20Human%20centric%20smart%20cities.pdf) | 23-05-2025 | |
 | FIWARE Summit 2025 | [Deploying a FIWARE Data Space Connector](./summit-rabat/deploying-the-fdsc/FGS25%20–%20Deploying%20a%20FIWARE%20Data%20Space%20Connector.pdf) | 23-05-2025 | |
+| Gaia-X Tech-X 2025 | [Data Space Onboarding with Gaia-X Credentials](./gaia-x-tech-x/Data-Space-Onboarding.pdf) | 14-05-2025 | [Technical Results](https://gitlab.com/gaia-x/gaia-x-community/gx-hackathon/tech-x-2025-and-hackathon-8/-/tree/main/Data_Space_On-Boarding_with_Gaia-X_Credentials?ref_type=heads) |
 | Wednesday Webinar  | [FIWARE Data Space Connector - Integration with the IDSA Data Space Protocol](./wednesday-webinar/dsc-idsa/IDSA.pdf) | 02-04-2025 | |
 | Authenticon  | [Aufbau eines dezentralen Datenraumes mit dem FIWARE Data Space Connector ](./authenticon/FIWARE%20DSC%20Authenticon.pdf) | 05-03-2025 | [authenticon.io](https://authenticon.io/) |
 | Data Spaces Onboarding | [FIWARE Data Spaces - Reference Use Case ](./data-spaces-onboarding/reference-use-case/Reference%20Use%20Case.pdf) | 26-11-2024 | [Youtube](https://www.youtube.com/watch?v=3fLisTubkF0&t=13s) |
