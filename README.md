@@ -2,6 +2,7 @@
 
 |Event|Title|Date|Links|
 |--|---|--|--|
+| FIWARE Summit 2025 | [Towards Human-Centric Smart City Services through Decentralized Identity Mangement](./summit-rabat/human-centric-smart-city/FGS25%20–%20Human%20centric%20smart%20cities.pdf) | 23-05-2025 | |
 | Wednesday Webinar  | [FIWARE Data Space Connector - Integration with the IDSA Data Space Protocol](./wednesday-webinar/dsc-idsa/IDSA.pdf) | 02-04-2025 | |
 | Authenticon  | [Aufbau eines dezentralen Datenraumes mit dem FIWARE Data Space Connector ](./authenticon/FIWARE%20DSC%20Authenticon.pdf) | 05-03-2025 | [authenticon.io](https://authenticon.io/) |
 | Data Spaces Onboarding | [FIWARE Data Spaces - Reference Use Case ](./data-spaces-onboarding/reference-use-case/Reference%20Use%20Case.pdf) | 26-11-2024 | [Youtube](https://www.youtube.com/watch?v=3fLisTubkF0&t=13s) |
