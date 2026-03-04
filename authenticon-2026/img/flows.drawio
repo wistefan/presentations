@@ -1,0 +1,161 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.3.7">
+  <diagram name="Page-1" id="45sQUSofHIvQF0QYjukS">
+    <mxGraphModel dx="947" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SSO-Provider" vertex="1">
+          <mxGeometry height="60" width="120" x="385.45" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Application" vertex="1">
+          <mxGeometry height="60" width="120" x="385.45" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-4" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.014;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;" target="JS6zc2o4xBUEnEW6eSEV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-6" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Login Page" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-3" as="geometry">
+            <mxPoint x="24" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-10" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-2" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.003;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;" target="JS6zc2o4xBUEnEW6eSEV-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="270" as="sourcePoint" />
+            <mxPoint x="120" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-11" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. redirect to &amp;lt;sso-provider&amp;gt;/authorization" vertex="1">
+          <mxGeometry relative="1" x="0.1328" y="-2" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.991;exitY=0.706;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" target="JS6zc2o4xBUEnEW6eSEV-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120.00000000000007" y="244.14" as="sourcePoint" />
+            <mxPoint x="220.45" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-13" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. Login" vertex="1">
+          <mxGeometry relative="1" x="-0.1762" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-14" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.003;entryY=0.871;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240.45" y="340" as="sourcePoint" />
+            <mxPoint x="120.59999999999998" y="275.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-15" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. redirect to app /callback?code=..&amp;amp;state=..." vertex="1">
+          <mxGeometry relative="1" x="0.2104" y="-3" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-16" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JS6zc2o4xBUEnEW6eSEV-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="210" as="sourcePoint" />
+            <mxPoint x="620" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-17" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. get token /token?code=..." vertex="1">
+          <mxGeometry relative="1" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Application" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Verifier" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Issuer" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-22" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="200" width="50" x="70" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-9" parent="JS6zc2o4xBUEnEW6eSEV-22" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="200" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-3" parent="JS6zc2o4xBUEnEW6eSEV-22" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-23" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="200" width="50" x="300" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-24" parent="JS6zc2o4xBUEnEW6eSEV-23" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="200" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-25" parent="JS6zc2o4xBUEnEW6eSEV-23" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-26" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-24" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JS6zc2o4xBUEnEW6eSEV-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="480" as="sourcePoint" />
+            <mxPoint x="160" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-27" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Get Credential" vertex="1">
+          <mxGeometry relative="1" x="0.2698" y="1" as="geometry">
+            <mxPoint x="19" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-28" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.311;entryDx=0;entryDy=0;exitX=0.991;exitY=0.19;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="JS6zc2o4xBUEnEW6eSEV-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="401" as="sourcePoint" />
+            <mxPoint x="674" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-29" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Login Page" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-3" as="geometry">
+            <mxPoint x="24" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-30" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-18" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.974;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;" target="JS6zc2o4xBUEnEW6eSEV-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="625" y="362" as="sourcePoint" />
+            <mxPoint x="360" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-32" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. redirect to verifier/authorization" vertex="1">
+          <mxGeometry relative="1" x="0.5992" y="4" as="geometry">
+            <mxPoint x="69" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-33" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-24" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.996;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;" target="JS6zc2o4xBUEnEW6eSEV-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="587" as="sourcePoint" />
+            <mxPoint x="615" y="370.86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-34" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. Login" vertex="1">
+          <mxGeometry relative="1" x="-0.1762" as="geometry">
+            <mxPoint x="24" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-35" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-19" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.009;entryY=0.835;entryDx=0;entryDy=0;entryPerimeter=0;" target="JS6zc2o4xBUEnEW6eSEV-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="704.4000000000001" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="580.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-36" connectable="0" parent="JS6zc2o4xBUEnEW6eSEV-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. redirect to app /callback?..." vertex="1">
+          <mxGeometry relative="1" x="0.2104" y="-3" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-37" edge="1" parent="1" source="JS6zc2o4xBUEnEW6eSEV-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JS6zc2o4xBUEnEW6eSEV-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="400" as="sourcePoint" />
+            <mxPoint x="670" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JS6zc2o4xBUEnEW6eSEV-38" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. get token /token?code=..." vertex="1">
+          <mxGeometry x="640" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
