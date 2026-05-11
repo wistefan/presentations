@@ -2,8 +2,7 @@
 
 |Event|Title|Date|Links|
 |--|---|--|--|
-| FIWARE Data Spaces - Technical Training | [FIWARE Data Spaces
-Foundations and Technical Architecture](./dsc-giz/FIWARE_Data_Spaces_Foundations_and_Technical_Archtiecture.pdf) | 12-05-2026 ||
+| FIWARE Data Spaces - Technical Training | [FIWARE Data Spaces Foundations and Technical Architecture](./dsc-giz/FIWARE_Data_Spaces_Foundations_and_Technical_Archtiecture.pdf) | 12-05-2026 ||
 | Authenticon 2026 | [Bridging the Gap: OpenID4VC als Brücke zu verifiable-credentials-basiertem Identity&Access Management](./authenticon-2026/Bridging-the-gap.pdf) | 11-03-2026 | [authenticon.io](https://authenticon.io/) |
 | Data Spaces Symposium 2026 | [Deploying Interoperable Data Spaces with the FW Data Space Connector](./data-space-symposium/DataspaceSymposium.pdf) | 11-02-2026 | [data-spaces-symposium.eu](https://www.data-spaces-symposium.eu) |
 | FIWARE Summit 2025 | [Towards Human-Centric Smart City Services through Decentralized Identity Mangement](./summit-rabat/human-centric-smart-city/FGS25%20–%20Human%20centric%20smart%20cities.pdf) | 23-05-2025 | |
