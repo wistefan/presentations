@@ -2,7 +2,7 @@
 
 |Event|Title|Date|Links|
 |--|---|--|--|
-| Gaia-X Tech-X 2026 | [FIWARE Data Space Connector - Dataspace Protocol](./tech-x-athen/FIWARE%20Data%20Spaces%20Eclipse%20Data%20Space%20Protocol.pptx.pdf) | 28-05-2026 | [Tech-X 2026](https://gaia-x.eu/tech-x-2026/) | 
+| Gaia-X Tech-X 2026 | [FIWARE Data Space Connector - Dataspace Protocol](./tech-x-athen/FIWARE%20Data%20Spaces%20Eclipse%20Data%20Space%20Protocol.pptx.pdf) | 28-05-2026 | [Tech-X 2026](https://gaia-x.eu/tech-x-2026/) [Youtube](https://www.youtube.com/watch?v=wpoYqYOlyFs) | 
 | FIWARE Data Spaces - Technical Training | [FIWARE Data Spaces - EDC Integration](./dsc-giz/FIWARE%20Data%20Spaces%20-%20EDC%20Integration.pdf) | 19-05-2026 ||
 | FIWARE Data Spaces - Technical Training | [FIWARE Data Spaces Foundations and Technical Architecture](./dsc-giz/FIWARE_Data_Spaces_Foundations_and_Technical_Archtiecture.pdf) | 12-05-2026 ||
 | Authenticon 2026 | [Bridging the Gap: OpenID4VC als Brücke zu verifiable-credentials-basiertem Identity&Access Management](./authenticon-2026/Bridging-the-gap.pdf) | 11-03-2026 | [authenticon.io](https://authenticon.io/) |
